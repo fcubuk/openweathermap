@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DaysCarouselButton /> component should render correctly 1`] = `
+<button
+  className="container-active"
+  onClick={[Function]}
+>
+  <div
+    key=".0"
+  >
+    <span>
+      Today
+    </span>
+  </div>
+  <div
+    className="icon-temp-container"
+    key=".1"
+  >
+    <img
+      alt="clear sky"
+      key=".0"
+      src="http://openweathermap.org/img/w/01d.png"
+      title="clear sky"
+    />
+    <ul
+      key=".1"
+    >
+      <li
+        className="temperature-high"
+        key=".0"
+      >
+        29
+        °
+      </li>
+      <li
+        className="temperature-low"
+        key=".1"
+      >
+        16
+        °
+      </li>
+    </ul>
+  </div>
+</button>
+`;
+
+exports[`<DaysCarouselButton /> component should render correctly for active day with text Tonight 1`] = `
+<button
+  className="container-active"
+  onClick={[Function]}
+>
+  <div
+    key=".0"
+  >
+    <span>
+      Tonight
+    </span>
+  </div>
+  <div
+    className="icon-temp-container"
+    key=".1"
+  >
+    <img
+      alt="clear sky"
+      key=".0"
+      src="http://openweathermap.org/img/w/01d.png"
+      title="clear sky"
+    />
+    <ul
+      key=".1"
+    >
+      <li
+        className="temperature-high"
+        key=".0"
+      >
+        32
+        °
+      </li>
+      <li
+        className="temperature-low"
+        key=".1"
+      >
+        18
+        °
+      </li>
+    </ul>
+  </div>
+</button>
+`;
+
+exports[`<DaysCarouselButton /> component should render nothing without data correctly 1`] = `""`;

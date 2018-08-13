@@ -1,0 +1,278 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Forecast /> component should render with data correctly 1`] = `
+<div>
+  <div
+    className="carousel-container"
+    key=".0"
+  >
+    <DaysCarouselButton
+      data={
+        Object {
+          "enhancedWeatherDescription": "clear sky",
+          "iconURL": "http://openweathermap.org/img/w/01d.png",
+          "localDate": "2018-08-06",
+          "maxTempC": 29,
+          "maxTempF": 84,
+          "minTempC": 16,
+          "minTempF": 61,
+          "precipitationProbabilityInPercent": 0,
+          "precipitationProbabilityText": "Precipitation is not expected",
+          "timeSlot": "18:00",
+          "weatherTypeText": "Clear",
+          "windDescription": "Light winds from south west",
+          "windDirection": "SW",
+          "windDirectionAbbreviation": "SW",
+          "windDirectionFull": "south west",
+          "windSpeedKph": 9,
+          "windSpeedMph": 5,
+        }
+      }
+      dayID={0}
+      handleDayClick={[Function]}
+      isActiveDay={true}
+      key=".$0"
+      unit="metric"
+    />
+    <DaysCarouselButton
+      data={
+        Object {
+          "enhancedWeatherDescription": "clear sky",
+          "iconURL": "http://openweathermap.org/img/w/01d.png",
+          "localDate": "2018-08-07",
+          "maxTempC": 32,
+          "maxTempF": 89,
+          "minTempC": 18,
+          "minTempF": 64,
+          "precipitationProbabilityInPercent": 0,
+          "precipitationProbabilityText": "Precipitation is not expected",
+          "timeSlot": "21:00",
+          "weatherTypeText": "Clear",
+          "windDescription": "Light winds from south south west",
+          "windDirection": "SSW",
+          "windDirectionAbbreviation": "SSW",
+          "windDirectionFull": "south south west",
+          "windSpeedKph": 4,
+          "windSpeedMph": 3,
+        }
+      }
+      dayID={1}
+      handleDayClick={[Function]}
+      isActiveDay={false}
+      key=".$1"
+      unit="metric"
+    />
+    <DaysCarouselButton
+      data={
+        Object {
+          "enhancedWeatherDescription": "clear sky",
+          "iconURL": "http://openweathermap.org/img/w/01d.png",
+          "localDate": "2018-08-08",
+          "maxTempC": 24,
+          "maxTempF": 75,
+          "minTempC": 15,
+          "minTempF": 59,
+          "precipitationProbabilityInPercent": 0,
+          "precipitationProbabilityText": "Precipitation is not expected",
+          "timeSlot": "06:00",
+          "weatherTypeText": "Clear",
+          "windDescription": "Light winds from west",
+          "windDirection": "W",
+          "windDirectionAbbreviation": "W",
+          "windDirectionFull": "west",
+          "windSpeedKph": 14,
+          "windSpeedMph": 9,
+        }
+      }
+      dayID={2}
+      handleDayClick={[Function]}
+      isActiveDay={false}
+      key=".$2"
+      unit="metric"
+    />
+    <DaysCarouselButton
+      data={
+        Object {
+          "enhancedWeatherDescription": "light rain",
+          "iconURL": "http://openweathermap.org/img/w/10d.png",
+          "localDate": "2018-08-09",
+          "maxTempC": 16,
+          "maxTempF": 61,
+          "minTempC": 11,
+          "minTempF": 52,
+          "precipitationProbabilityInPercent": 0,
+          "precipitationProbabilityText": "Precipitation is not expected",
+          "timeSlot": "06:00",
+          "weatherTypeText": "Rain",
+          "windDescription": "Light winds from north",
+          "windDirection": "N",
+          "windDirectionAbbreviation": "N",
+          "windDirectionFull": "north",
+          "windSpeedKph": 5,
+          "windSpeedMph": 3,
+        }
+      }
+      dayID={3}
+      handleDayClick={[Function]}
+      isActiveDay={false}
+      key=".$3"
+      unit="metric"
+    />
+    <DaysCarouselButton
+      data={
+        Object {
+          "enhancedWeatherDescription": "clear sky",
+          "iconURL": "http://openweathermap.org/img/w/01d.png",
+          "localDate": "2018-08-10",
+          "maxTempC": 16,
+          "maxTempF": 60,
+          "minTempC": 11,
+          "minTempF": 52,
+          "precipitationProbabilityInPercent": 0,
+          "precipitationProbabilityText": "Precipitation is not expected",
+          "timeSlot": "06:00",
+          "weatherTypeText": "Clear",
+          "windDescription": "Light winds from west south west",
+          "windDirection": "WSW",
+          "windDirectionAbbreviation": "WSW",
+          "windDirectionFull": "west south west",
+          "windSpeedKph": 13,
+          "windSpeedMph": 8,
+        }
+      }
+      dayID={4}
+      handleDayClick={[Function]}
+      isActiveDay={false}
+      key=".$4"
+      unit="metric"
+    />
+    <DaysCarouselButton
+      data={
+        Object {
+          "enhancedWeatherDescription": "light rain",
+          "iconURL": "http://openweathermap.org/img/w/10d.png",
+          "localDate": "2018-08-11",
+          "maxTempC": 18,
+          "maxTempF": 64,
+          "minTempC": 13,
+          "minTempF": 56,
+          "precipitationProbabilityInPercent": 1,
+          "precipitationProbabilityText": "Low chance of precipitation",
+          "timeSlot": "06:00",
+          "weatherTypeText": "Rain",
+          "windDescription": "Light winds from west south west",
+          "windDirection": "WSW",
+          "windDirectionAbbreviation": "WSW",
+          "windDirectionFull": "west south west",
+          "windSpeedKph": 17,
+          "windSpeedMph": 11,
+        }
+      }
+      dayID={5}
+      handleDayClick={[Function]}
+      isActiveDay={false}
+      key=".$5"
+      unit="metric"
+    />
+  </div>
+  <div
+    key=".1"
+  >
+    <DayDetail
+      activeTimeSlotID={null}
+      data={
+        Array [
+          Object {
+            "enhancedWeatherDescription": "clear sky",
+            "humidity": 31,
+            "iconURL": "http://openweathermap.org/img/w/01d.png",
+            "localDate": "2018-08-06",
+            "maxTempC": 29.15,
+            "minTempC": 28.54,
+            "precipitationProbabilityInPercent": 0,
+            "precipitationProbabilityText": "Precipitation is not expected",
+            "pressure": 1018,
+            "temperatureC": 29,
+            "temperatureF": 83,
+            "timeSlot": "18:00",
+            "weatherTypeText": "Clear",
+            "windDescription": "Light winds from south west",
+            "windDirection": "SW",
+            "windDirectionAbbreviation": "SW",
+            "windDirectionFull": "south west",
+            "windSpeedKph": 9,
+            "windSpeedMph": 5,
+          },
+          Object {
+            "enhancedWeatherDescription": "clear sky",
+            "humidity": 43,
+            "iconURL": "http://openweathermap.org/img/w/01n.png",
+            "localDate": "2018-08-06",
+            "maxTempC": 22.81,
+            "minTempC": 22.35,
+            "precipitationProbabilityInPercent": 0,
+            "precipitationProbabilityText": "Precipitation is not expected",
+            "pressure": 1018,
+            "temperatureC": 22,
+            "temperatureF": 72,
+            "timeSlot": "21:00",
+            "weatherTypeText": "Clear",
+            "windDescription": "Light winds from south south west",
+            "windDirection": "SSW",
+            "windDirectionAbbreviation": "SSW",
+            "windDirectionFull": "south south west",
+            "windSpeedKph": 8,
+            "windSpeedMph": 5,
+          },
+          Object {
+            "enhancedWeatherDescription": "clear sky",
+            "humidity": 61,
+            "iconURL": "http://openweathermap.org/img/w/01n.png",
+            "localDate": "2018-08-07",
+            "maxTempC": 18.79,
+            "minTempC": 18.49,
+            "precipitationProbabilityInPercent": 0,
+            "precipitationProbabilityText": "Precipitation is not expected",
+            "pressure": 1017,
+            "temperatureC": 18,
+            "temperatureF": 65,
+            "timeSlot": "00:00",
+            "weatherTypeText": "Clear",
+            "windDescription": "Light winds from south south west",
+            "windDirection": "SSW",
+            "windDirectionAbbreviation": "SSW",
+            "windDirectionFull": "south south west",
+            "windSpeedKph": 9,
+            "windSpeedMph": 6,
+          },
+          Object {
+            "enhancedWeatherDescription": "few clouds",
+            "humidity": 75,
+            "iconURL": "http://openweathermap.org/img/w/02n.png",
+            "localDate": "2018-08-07",
+            "maxTempC": 16.05,
+            "minTempC": 15.9,
+            "precipitationProbabilityInPercent": 0,
+            "precipitationProbabilityText": "Precipitation is not expected",
+            "pressure": 1016,
+            "temperatureC": 16,
+            "temperatureF": 61,
+            "timeSlot": "03:00",
+            "weatherTypeText": "Clouds",
+            "windDescription": "Light winds from south south west",
+            "windDirection": "SSW",
+            "windDirectionAbbreviation": "SSW",
+            "windDirectionFull": "south south west",
+            "windSpeedKph": 4,
+            "windSpeedMph": 3,
+          },
+        ]
+      }
+      key="0"
+      unit="metric"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Forecast /> component should render without data correctly 1`] = `""`;

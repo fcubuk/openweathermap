@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DayDetailTimeSlot /> component should render without crashing with data 1`] = `
+<li
+  className="time-slot-container"
+>
+  <button
+    className="time-slot-button"
+    key=".0"
+    onClick={[Function]}
+  >
+    <div
+      className="time"
+      key=".0"
+    >
+      <span
+        className="hour"
+        key=".0"
+      >
+        18
+      </span>
+      <span
+        key=".1"
+      >
+        00
+      </span>
+    </div>
+    <div
+      className="icon-temperature"
+      key=".1"
+    >
+      <img
+        alt="Clear"
+        key=".0"
+        src="http://openweathermap.org/img/w/01d.png"
+      />
+      <div
+        className="temperature"
+        key=".1"
+      >
+        <span>
+          29
+          °
+        </span>
+      </div>
+    </div>
+    <div
+      className="precipitation-percentage"
+      key=".2"
+    >
+      <span>
+        0
+        %
+      </span>
+    </div>
+    <div
+      className="wind-direction"
+      key=".3"
+    >
+      <span
+        key=".0"
+      >
+        SW
+      </span>
+      <br
+        key=".1"
+      />
+      <span
+        key=".2"
+      >
+        9
+         
+        km/h
+      </span>
+    </div>
+  </button>
+  <div
+    className="time-slot-details-container-hidden"
+    key=".1"
+  >
+    <div
+      className="description"
+      key=".0"
+    >
+      <span>
+        clear sky and Light winds from south west
+      </span>
+    </div>
+    <div
+      className="humidity-pressure-container"
+      key=".1"
+    >
+      <dl>
+        <dt
+          key=".0"
+        >
+          Humidity
+        </dt>
+        <dd
+          key=".1"
+        >
+          31
+          %
+        </dd>
+        <dt
+          key=".2"
+        >
+          Pressure
+        </dt>
+        <dd
+          key=".3"
+        >
+          1018
+        </dd>
+      </dl>
+    </div>
+    <div
+      className="precipitation-probability"
+      key=".2"
+    >
+      <span>
+        Precipitation is not expected
+      </span>
+    </div>
+    <div
+      className="wind-description"
+      key=".3"
+    >
+      <span>
+        Light winds from south west
+      </span>
+    </div>
+  </div>
+</li>
+`;
+
+exports[`<DayDetailTimeSlot /> component should render without crashing without data 1`] = `""`;

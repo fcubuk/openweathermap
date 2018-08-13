@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+<style>
+  .container {
+    display: flex;
+    background: red;
+
+  }
+
+  .container div {
+    background: yellow;
+    min-width: 50px;
+    border: 2px solid green;
+    margin: 5px;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div>Div1</div>
+    <div>Div2</div>
+    <div>Div3</div>
+    <div>Div4</div>
+    <div>Div5</div>
+
+  </div>
+</body>
+<script>
+  const WIND_DIRECTION = {
+    NNW: {
+      deg: 348.75,
+      desc: 'north north west'
+    },
+    NW: {
+      deg: 326.25,
+      desc: 'nort west'
+    },
+    WNW: {
+      deg: 303.75,
+      desc: 'west nort west'
+    },
+    W: {
+      deg: 281.25,
+      desc: 'west'
+    },
+    WSW: {
+      deg: 258.75,
+      desc: 'west south west'
+    },
+    SW: {
+      deg: 236.25,
+      desc: 'south west'
+    },
+    SSW: {
+      deg: 213.75,
+      desc: 'south south west'
+    },
+    S: {
+      deg: 191.25,
+      desc: 'south'
+    },
+    SSE: {
+      deg: 168.75,
+      desc: 'south south east'
+    },
+    SE: {
+      deg: 146.25,
+      desc: 'south east'
+    },
+    ESE: {
+      deg: 123.75,
+      desc: 'east south east'
+    },
+    E: {
+      deg: 101.25,
+      desc: 'east'
+    },
+    ENE: {
+      deg: 78.75,
+      desc: 'east nort east'
+    },
+    NE: {
+      deg: 56.25,
+      desc: 'nort east'
+    },
+    NNE: {
+      deg: 33.75,
+      desc: 'nort north east'
+    },
+    N: {
+      deg: 11.25,
+      desc: 'nort'
+    },
+  };
+
+  for (let deg in WIND_DIRECTION) {
+    console.log(WIND_DIRECTION[deg].desc)
+  }
+
+</script>
+
+
+</html>

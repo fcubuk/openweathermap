@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FindForecastForm /> component should render correctly 1`] = `
+<div
+  className="form-container"
+>
+  <div
+    className="form"
+    key=".1"
+  >
+    <select
+      className="select-city"
+      key=".0"
+      onChange={[Function]}
+    >
+      <option
+        key=".0"
+        value="undefined"
+      >
+        Select location
+      </option>
+    </select>
+    <div
+      className="switch-field"
+      key=".1"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={false}
+        id="switch_left"
+        key=".0"
+        name="unit"
+        type="radio"
+        value="metric"
+      />
+      <label
+        htmlFor="switch_left"
+        key=".1"
+        title="Celcius"
+      >
+        C
+      </label>
+      <input
+        defaultChecked={false}
+        id="switch_right"
+        key=".2"
+        name="unit"
+        type="radio"
+        value="imperial"
+      />
+      <label
+        htmlFor="switch_right"
+        key=".3"
+        title="Fahrenheit"
+      >
+        F
+      </label>
+    </div>
+    <button
+      key=".2"
+      onClick={[Function]}
+    >
+      Show
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<FindForecastForm /> component should render correctly with all props 1`] = `
+<div
+  className="form-container"
+>
+  <div
+    className="form"
+    key=".1"
+  >
+    <select
+      className="select-city"
+      key=".0"
+      onChange={[Function]}
+      value="undefined"
+    >
+      <option
+        key=".0"
+        value="undefined"
+      >
+        Select location
+      </option>
+      <option
+        key=".1:$0"
+        value="New York,US"
+      >
+        New York
+        , 
+        US
+      </option>
+      <option
+        key=".1:$1"
+        value="Greater London,GB"
+      >
+        Greater London
+        , 
+        GB
+      </option>
+    </select>
+    <div
+      className="switch-field"
+      key=".1"
+      onClick={[Function]}
+    >
+      <input
+        defaultChecked={true}
+        id="switch_left"
+        key=".0"
+        name="unit"
+        type="radio"
+        value="metric"
+      />
+      <label
+        htmlFor="switch_left"
+        key=".1"
+        title="Celcius"
+      >
+        C
+      </label>
+      <input
+        defaultChecked={false}
+        id="switch_right"
+        key=".2"
+        name="unit"
+        type="radio"
+        value="imperial"
+      />
+      <label
+        htmlFor="switch_right"
+        key=".3"
+        title="Fahrenheit"
+      >
+        F
+      </label>
+    </div>
+    <button
+      key=".2"
+      onClick={[Function]}
+    >
+      Show
+    </button>
+  </div>
+</div>
+`;

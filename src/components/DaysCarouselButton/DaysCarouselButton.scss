@@ -1,0 +1,45 @@
+%temperature {
+  list-style-type: none;
+}
+
+%button {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border-right: 1px solid #999;
+  width: 110px;
+  cursor: pointer;
+}
+
+%container {
+  @extend %button;
+  .day-of-month {
+    color: lighten(#000, 30);
+  }
+  .temperature-high {
+    @extend %temperature;
+    font-weight: 700;
+  }
+  .temperature-low {
+    @extend %temperature;
+    font-weight: 400;
+  }
+  .icon-temp-container {
+    display: flex;
+    ul {
+      margin: 0px;
+      padding: 10px;
+    }
+  }
+}
+
+.container {
+  border-top: 5px solid #eb5038;
+  @extend %container;
+}
+
+.container-active {
+  border-bottom: 5px solid #eb5038;
+  @extend %container;
+}

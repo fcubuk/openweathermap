@@ -1,0 +1,134 @@
+%time-slot-details-container {
+  background: #eee;
+  width: 250px;
+  font-size: 14px;
+}
+
+%button {
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  width: 70px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.time-slot-container {
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  border-top: 5px solid #eb5038;
+  border-right: 1px solid #999;
+  .time-slot-button {
+    @extend %button;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    vertical-align: top;
+    .time {
+      height: 40px;
+      margin: auto;
+      .hour {
+        font-weight: 700;
+      }
+    }
+    .icon-temperature {
+      margin: 0 auto;
+      height: 80px;
+      img {
+        object-fit: cover;
+        position: relative;
+        clip-path: rect(0px, 30px, 30px 0px);
+      }
+      .temperature {
+        font-weight: 700;
+      }
+    }
+    .precipitation-percentage {
+      color: #999;
+      padding: 0px;
+      margin: 13px auto;
+    }
+    .wind-direction {
+      padding: 13px 0px;
+      margin: auto;
+    }
+  }
+  .time-slot-details-container-visible {
+    @extend %time-slot-details-container;
+    display: block;
+    padding: 6px 20px;
+    .description {
+      height: 40px;
+    }
+    .humidity-pressure-container {
+      display: bloc;
+      text-align: left;
+      margin-top: 5px;
+      padding: 10px 0px;
+      border-bottom: 1px solid rgb(216, 216, 216);
+      dl {
+        font-weight: 400;
+        margin-top: 5px;
+        padding: 0px;
+        dt {
+          float: left;
+          clear: left;
+          margin-right: 8px;
+        }
+        dd {
+          font-weight: 700;
+          margin: 0px;
+        }
+      }
+    }
+    .precipitation-probability {
+      padding: 13px 0px;
+      border-bottom: 1px solid rgb(216, 216, 216);
+    }
+    .wind-description {
+      padding: 13px 0px;
+    }
+  }
+  .time-slot-details-container-hidden {
+    @extend %time-slot-details-container;
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+/* 
+dl {
+        border: 1px solid red;
+        text-align: left;
+        box-sizing: border-box;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0px;
+        padding: 0px;
+        dt {
+          clear: left;
+          display: block;
+          float: left;
+          text-align: left;
+          line-height: 18px;
+          margin-right: 8px;
+          padding-bottom: 4px;
+          border: 1px solid red;
+          dd {
+            display: block;
+            text-align: left;
+            font-weight: 700;
+            line-height: 18px;
+            margin: 0px;
+            padding-bottom: 4px;
+            border: 1px solid red;
+          }
+        }
+      }
+*/

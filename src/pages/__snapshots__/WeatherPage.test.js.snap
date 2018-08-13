@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherPage /> component should render without data correctly 1`] = `
+<div
+  className="container"
+>
+  <h1
+    key=".0"
+  >
+    Weather Page
+  </h1>
+  <FindForecastForm
+    handleForecastOptions={[Function]}
+    handleTemperatureUnitChange={[Function]}
+    key=".1"
+    locations={null}
+    selectedTemperatureUnit="metric"
+  />
+  <div
+    className="forecasts-container"
+    key=".3"
+  />
+</div>
+`;

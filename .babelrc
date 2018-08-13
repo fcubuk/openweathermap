@@ -1,0 +1,21 @@
+{
+  "presets": ["env", "react"],
+  "plugins": [
+    "array-includes",
+    "transform-react-jsx",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    [
+      "react-css-modules",
+      {
+        "context": "./src",
+        "filetypes": {
+          ".scss": {
+            "syntax": "postcss-scss"
+          }
+        },
+        "generateScopedName": "ie-[name]__[local]"
+      }
+    ]
+  ]
+}
