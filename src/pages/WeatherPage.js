@@ -50,7 +50,7 @@ class WeatherPage extends Component {
       });
     }
   }
-
+  
 
   render() {
     const { isLoading, error, forecasts, locations, location_id, selectedTemperatureUnit } = this.state;
